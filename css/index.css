@@ -1,16 +1,21 @@
 /* Default styles */
 * {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 body {
     margin: 0;
-    display: grid;
+    
+    width: 100%;
+    display: block;
 }
 .row {
     margin: 0;
 }
 ul {
     list-style: none;
+}
+.col-md-4 {
+    margin: 0;
 }
 /* End of Default Styles */
 
@@ -28,12 +33,50 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.mobile-menu {
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logo img {
+    width: 200px;
+}
+.logo {
+    padding-top: 10px;
+}
 .menus {
     padding: 10px 0;
+    display: block;
 }
 .menus ul li{
     display: inline;
     padding: 10px;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.close {
+    display: none;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+.search {
+    display: none;
+}
+.search span {
+    font-size: 40px;
+    cursor: pointer;
+}
+.search-div {
+    display: block;
+    position: relative;
 }
 .search-box {
     padding: 10px;
@@ -58,16 +101,37 @@ ul {
     line-height: 36px;
     color: #FFFFFF;
 }
+.mobile-menu div {
+    padding: 7px;
+}
 /* End of Navbar Styles */
 
 /* First Section of page */
 .container-1 {
     width: 100%;
     padding: 10px;
-    margin: 0;   
+    margin: 0;
+}
+.mobile-col {
+    display: none;
+}
+.mobile-col h1 {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    color: #000000;
+}
+.mobile-col p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+.right-1 {
+    display: block;
 }
 .right-1 img{
-    height: 100%;
+    width: 100%;
 }
 .left-text-div {
     padding: 60px;
@@ -89,6 +153,24 @@ ul {
     color: #fff;
     z-index: 1;
 }
+.explore {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1089FE;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
+    background: transparent;
+}
+.join {
+    width: 100%;
+    padding: 10px;
+    background: #1089FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+}
 .ellipse {
     position: relative;
     top: -100px;
@@ -104,14 +186,18 @@ ul {
 .header-2-div {
     text-align: center;
 }
+.header-2-div h3 {
+    font-weight: bold;
+}
 .tabs-div {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.tabs-div h3 {
-    margin: 20px;
+.tabs-div h6 {
+    font-weight: bold;
+    margin: 7px;
     padding: 10px;
 }
 .active {
@@ -120,6 +206,7 @@ ul {
 .slideshow-div {
     width: 50%;
     margin: 30px auto;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 .slideshow-img-div img{
     width: 100%;
@@ -221,23 +308,23 @@ ul {
 }
 .card-1 {
     background-image: linear-gradient(90deg, #6101ab7a, #6101ab7a), url('../images/Explore/mobile-technology\ 1.png');
-    margin: 20px;
+    margin: 10px 0;
     width: 100%;
-    padding: 30px;
+    padding: 5px;
     color: #fff;
 }
 .card-2 {
     background-image: linear-gradient(90deg, #02007885, #02007885), url('../images/Explore/top-web-development-tools-every-developer-should-use\ 1.png');
-    margin: 20px;
+    margin: 10px 0;
     width: 100%;
-    padding: 30px;
+    padding: 5px;
     color: #fff;
 }
 .card-3 {
     background-image: linear-gradient(90deg, #d2000083, #d2000083), url('../images/Explore/Enterprise-Inertia-Slowing-Down-DevSecOps-1280x720\ 1.png');
-    margin: 20px;
+    margin: 10px 0;
     width: 100%;
-    padding: 30px;
+    padding: 5px;
     color: #fff;
     
 }
@@ -265,13 +352,20 @@ ul {
     text-align: center;
     margin-bottom: 40px;
 }
+.header-6-div h2 {
+    font-weight: bold;
+}
 .course-div {
     width: 200px;
-    margin: auto;
+    margin: 20px auto;
 }
 .course-div img {
     border: 2px solid rgba(0, 0, 0, 0.281);
     padding: 50px 10px;
+}
+.course-div h6 {
+    font-weight: bold;
+    font-size: 20px
 }
 .view-btn {
     background: #1088FB;
@@ -312,14 +406,14 @@ ul {
     
 }
 .sub-form-div {
-    width: 800px;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding: 10px;
 }
 .email-box {
     padding: 20px 20px;
-    width: 450px;
+    width: 55%;
 }
 .sub-btn {
     padding: 22px 50px;
@@ -355,4 +449,139 @@ ul {
     padding-top: 30px;
     text-align: center;
 }
+.icons {
+    font-size: 40px;
+}
+.social ul {
+    text-align: center;
+}
 /* End of Footer */
+
+/*  Start Media Queries */
+@media screen and (max-width: 700px) {
+    .body {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .container-1, .container-2, .container-3, .container-4, .container-5, .container-6, .container-7 {
+        padding: 10px;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .menus {
+        display: none;
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    .menus ul li {
+        display: block;
+        width: 100%;
+        /* text-align: center; */
+    }
+    .search-div {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger span {
+        font-size: 40px;
+    }
+    .search {
+        display: block;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .nav-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .left-1 {
+        display: none;
+    }
+    .right-1 {
+        width: 100%;
+        text-align: center;
+    }
+    .ellipse {
+        display: none;
+    }
+    .mobile-col {
+        display: block;
+    }
+
+    /* Second Section */
+    .container-2 {
+        margin: 0;
+    }
+    .slideshow-div {
+        width: 90%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .slideshow-text {
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+    }
+    .slideshow-text img {
+        display: none;
+    }
+    .base-text {
+        width: 100%;
+    }
+    /* End of Second Section */
+
+    /*The third section is already responsive */
+
+    /* Forth Section */
+    .sp {
+        display: none;
+    }
+    /* End of Forth Section */
+
+    /* Fifth section is seems okay */
+
+    /* Sixth Section */
+    .container-6 .row .col-md-3 {
+        width: 100%;
+    }
+    .course-div {
+        width: 100%;
+    }
+    /* End of Sixth Section */
+
+    /* Seventh Section */
+    .sub-btn {
+        /* display: none; */
+        padding: 22px 40px;
+    }
+    /* End of Seventh Section */
+
+    /* Footer */
+    .footer-flex {
+        display: block;
+    }
+
+    .rows ul li {
+        display: inline-block;
+    }
+    
+    .footer-logo img {
+        width: 250px;
+    }
+    .social {
+        margin: auto;
+    }
+    /* End of Footer */
+}
+/* End of Media Queries */
