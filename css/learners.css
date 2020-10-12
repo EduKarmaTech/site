@@ -1,0 +1,32 @@
+.container-1 {
+	padding: 30px;
+}
+.head {
+	text-align: center;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.learner {
+	width: 300px;
+	padding: 5px;
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+	background: #F0F4FF;
+	margin-bottom: 50px;
+}
+.learner img {
+	width: 100%;
+}
+.learner h4 {
+	font-weight: bolder;
+	position: relative;
+	top: -30px;
+	text-align: center;
+	color: #fff;
+}
+.learner p {
+	font-size: 14px;
+	margin-top: -30px;
+}

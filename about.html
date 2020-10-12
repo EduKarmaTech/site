@@ -1,0 +1,255 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About - EduKarma</title>
+        <!-- External CDN -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!-- Local CSS included by me -->
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/default.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-div">
+                <div class="logo">
+                    <img src="images/edukarma white bg logo.png" alt="Logo">
+                </div>
+                <div class="menus" id="menus">
+                    <ul>
+                        <span class="material-icons close" id="close" onclick="closeMenu()">cancel</span>
+                        <li>Home</li>
+                        <li>Resourses <i class="fa fa-angle-down"></i></li>
+                        <li>Courses <i class="fa fa-angle-down"></i></li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div class="search-div" id="search-div">
+                    <input type="text" class="search-box" placeholder="Search Online Courses">
+                    <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="mobile-menu" id="mobile-menu">
+                    <div class="search" id="search" onclick="searchClicked()">
+                        <span class="material-icons">search</span>
+                    </div>
+                    <div class="hamburger" id="hamburger" onclick="menu()">
+                        <span class="material-icons">menu</span>
+                    </div>
+                    <div>
+                        <button class="login-btn">Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="container-1">
+            <div class="header-1">
+                <h1>About EduKarma</h1>
+            </div>
+            <div class="main-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia ultricies est eget ultrices. Nam lobortis libero eget malesuada suscipit. 
+                    Fusce rhoncus lectus a lorem auctor, vitae tempus ligula egestas. Nullam neque ipsum, lacinia at nulla vel, blandit bibendum risus. Integer 
+                    quam justo, ultricies nec finibus eu, accumsan ut tortor. Praesent volutpat risus at dolor dignissim vulputate. Nam accumsan risus nisi, et 
+                    cursus massa egestas eu. In hac habitasse platea dictumst. Proin vel lacus sit amet ligula porta convallis.
+                    <br><br>
+                    Morbi eu pharetra mi. Quisque tincidunt consequat turpis sed imperdiet. Nulla vel nunc id enim lacinia rutrum. Suspendisse cursus cursus 
+                    tempor. Nunc nisl odio, facilisis et convallis vel, ornare ac tortor. Vivamus dictum diam in turpis egestas fermentum. Vestibulum ante ipsum 
+                    primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce lacinia ultrices sapien, id tempor justo porttitor vel. Proin a ipsum ac nisi
+                    pharetra efficitur pulvinar id augue. Phasellus vel lacinia orci, at dignissim eros.
+                </p>
+            </div>
+        </section>
+        <section class="container-2">
+            <div class="header-2">
+                <h2>Milestones</h2>
+            </div>
+            <div class="mile-div">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="year">
+                            <h3>2020</h3>
+                            <h3>2021</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="year-text">
+                            <div>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia ultricies est eget ultrices.  Nam lobortis libero eget malesuada suscipit. Fusce rhoncus lectus a lorem auctor, vitae tempus ligula egestas. Nullamneque ipsum, lacinia at nulla vel, blandit bibendum risus. Integer quam justo, ultricies nec finibus eu, accumsanut tortor.
+                                </p>
+                            </div>
+                            <div>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia ultricies est eget ultrices.  Nam lobortis libero eget malesuada suscipit. Fusce rhoncus lectus a lorem auctor, vitae tempus ligula egestas. Nullamneque ipsum, lacinia at nulla vel, blandit bibendum risus. Integer quam justo, ultricies nec finibus eu, accumsanut tortor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-3">
+            <div class="header-3">
+                <h3>Our Team</h3>
+            </div>
+            <div class="team-menu">
+                <h3 class="active">Board</h3>
+                <h3>Educators</h3>
+            </div>
+            <div class="members">
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/member.png" width="200">
+                    <div>
+                        <h4>John Doe</h4>
+                        <h6>Board Member</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-4">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="header-4">
+                        <h3>Our Partners</h3>
+                    </div>
+                    <div class="container-4-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit commodo nisi, at egestas risus faucibus ut. Duis volutpat et nunc aliquet sagittis. Mauris vulputate pellentesque lorem, a semper ex sodales vel. Vestibulum vehicula, justo at laoreet auctor, arcu urna sagittis est, id pellentesque
+                            <br><br>
+                            Proin laoreet arcu at nisl ornare, ornare efficitur mi tempus. In consectetur at arcu sit amet efficitur. Sed lorem arcu, ultricies non pharetra vitae, vestibulum nec ante. Interdum et
+                        </p>
+                        <a href="learners.html">Meet our learners</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/gallery.png">
+                </div>
+            </div>
+        </section>
+        <section class="container-5">
+            <div class="header-5">
+                <h3>Our Partners</h3>
+            </div>
+            <div class="slideshow-div">
+                <div class="row">
+                    <div class="col-md-1">
+                        <span><</span>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/Edukarma 2.png" width="270">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/Edukarma 2.png" width="270">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/Edukarma 2.png" width="270">
+                    </div>
+                    <div class="col-md-1">
+                        <span>></span>
+                    </div>
+                </div>
+                <div class="dots">
+                    <span class="dots-active">.</span>
+                    <span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-logo">
+                        <img src="images/Edukarma 2.png" alt="Logo"><br><br>
+                        <p>Skillfle offers enrollment specialists and managers a completely mechanized pipeline enlistment advertising stage to effortlessly discover and draw in concealed passive talents while monetizing applicants.</p>
+                    </div>
+                </div>
+                <div class="col-md-8 footer-flex">
+                    <div class="rows">
+                        <ul>
+                            <li>Terms & conditions</li>
+                            <li>Team</li>
+                            <li>About Us</li>
+                            <li>FAQ</li>
+                            <li>Classes</li>
+                        </ul>
+                    </div>
+                    <div class="rows">
+                        <ul>
+                            <li>Registered business</li>
+                            <li>Registered Interns</li>
+                            <li>Partnerships</li>
+                        </ul>
+                    </div>
+                    <div class="rows social">
+                        <ul>
+                            <li><i class="fa fa-facebook icons"></i></li>
+                            <li><i class="fa fa-instagram icons"></i></li>
+                            <li><i class="fa fa-twitter icons"></i></li>
+                            <li><i class="fa fa-linkedin icons"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="last">
+                <p>Copyright © 2020 EduKarma. All RIghts Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

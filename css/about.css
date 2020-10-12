@@ -1,0 +1,130 @@
+/* First Section */
+.container-1 {
+	width: 100%;
+	margin: 0;
+	padding: 0 100px;
+}
+
+.header-1 {
+	width: 100%;
+	text-align: center;
+}
+
+.header-1 h1 {
+	font-weight: bolder;
+	font-size: 80px;
+	color: #14d0b8;
+}
+.main-text p {
+	line-height: 35px;
+	text-align: center;
+}
+/* End of First Section */
+
+/* Second Section */
+.container-2 {
+	width: 100%;
+	margin: 100px 0;
+	padding: 0 100px;
+}
+.header-2 {
+	width: 100%;
+	text-align: center;
+}
+.header-2 h2 {
+	font-weight: bold;
+	font-size: 40px;
+}
+.year h3 {
+	padding: 0 60px 85px 0;
+	text-align: right;
+	color: #B5DCD8;
+}
+.mile-div .row .col-md-9 {
+	border-left: 1px solid black;
+	padding-left: 25px;
+}
+/* End of Second Section */
+
+/* Third Section */
+.container-3 {
+	width: 100%;
+	margin: 100px 0;
+	padding: 0 100px;
+}
+.header-3 {
+	width: 100%;
+	text-align: center;
+}
+.header-3 h3 {
+	font-size: 40px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.team-menu {
+	margin: 30px auto;
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.members {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.member {
+	margin: 30px;
+}
+.active {
+	border-bottom: 3px solid #FFD600;
+}
+/* End of Third Section */
+
+/* Forth Section */
+.container-4 {
+	width: 100%;
+	margin: 100px 0;
+	padding: 0 100px;
+}
+.header-4 h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.container-4 .row .col-md-5 img {
+	width: 100%;
+	margin-top: -50px;
+}
+.container-4-text {
+	line-height: 30px;
+}
+/* End of Forth Section */
+
+/* Fifth Section */
+.container-5 {
+	width: 100%;
+	margin: 100px 0;
+	padding: 0 100px;
+}
+.header-5 h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.col-md-1 span {
+	font-size: 60px;
+}
+.dots {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dots span {
+	font-size: 80px;
+	margin: 0;
+	opacity: 30%;
+}
+span.dots-active {
+	opacity: 100%;
+}
+/* End of Fifth Section */
