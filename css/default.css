@@ -17,6 +17,22 @@ ul {
 .col-md-4 {
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
 /* End of Default Styles */
 
 
@@ -123,8 +139,12 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.rows ul a {
+    color: #fff;
+}
 .rows ul li {
     padding: 10px;
+    color: #fff;
 }
 .last {
     padding-top: 30px;
