@@ -1,0 +1,138 @@
+body {
+	background: url(../images/modal/background.jpg);
+	background-size: cover;
+}
+.mode {
+	width: 800px;
+	margin: 120px auto;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+/*First*/
+.main {
+	width: 100%;
+	text-align: center;
+	padding: 70px;
+	background: #001F3E;
+}
+.main h5 {
+	color: #FFEB33;
+	margin-top: -10px;
+}
+/*End of First*/
+
+
+
+/* For Tabs */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  /*border: 1px solid #ccc;*/
+  /*background-color: #f1f1f1;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: transparent;
+  margin-top: -52px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background: #888888;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-radius: 10px 10px 0 0;
+  width: 250px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #fff;
+  color: #1088FD;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  background: #F6F8FF;
+}
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.register-tab, .login-tab {
+	width: 100%;
+	padding: 45px;
+}
+.facebook-btn, .google-btn {
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 30px;
+	color: #fff;
+	font-weight: bold;
+}
+.btn-img {
+	float: left;
+}
+.facebook-btn {
+	background: #3B5998;
+}
+.google-btn {
+	background: #1089FE;
+}
+hr {
+	border: 1px solid #000;
+}
+.or-div {
+	text-align: center;
+}
+.or-div span {
+	position: relative;
+	top: -35px;
+	background: #F6F8FF;
+	padding: 0 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.input-field {
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 7px 14px;
+}
+.col-md-6, .col-md-12 {
+	padding: 10px;
+}
+.submit-btn {
+	background: #1089FE;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 7px;
+	width: 100%;
+}
+/*End of For Tabs*/
