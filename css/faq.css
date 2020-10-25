@@ -96,5 +96,34 @@
     padding: 8px 20px;
     position: relative;
     top: 45px;
+    font-weight: bold;
 }
 /*End of Second*/
+
+/*Responsive query*/
+
+@media screen and (max-width: 700px) {
+    .container-1 {
+        padding: 10px;
+    }
+    .container-2 {
+        padding: 0;
+    }
+    .total {
+        padding: 0;
+    }
+    .form-div {
+        margin: 0;
+        position: relative;
+        top: 0;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 70px;
+    }
+    .col-md-5 {
+        padding: 0;
+    }
+    .after {
+        margin: 20px 0;
+    }
+}

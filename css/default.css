@@ -157,3 +157,43 @@ a:visited {
     text-align: center;
 }
 /* End of Footer */
+@media screen and (max-width: 700px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .menus {
+        display: none;
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    .menus ul li {
+        display: block;
+        width: 100%;
+        /* text-align: center; */
+    }
+    .search-div {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger span {
+        font-size: 40px;
+    }
+    .search {
+        display: block;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .nav-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

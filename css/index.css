@@ -360,44 +360,6 @@
     .container-1, .container-2, .container-3, .container-4, .container-5, .container-6, .container-7 {
         padding: 10px;
     }
-    .navbar {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        
-    }
-    .menus {
-        display: none;
-        position: relative;
-        width: 100%;
-        top: 0;
-    }
-    .menus ul li {
-        display: block;
-        width: 100%;
-        /* text-align: center; */
-    }
-    .search-div {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-    .hamburger span {
-        font-size: 40px;
-    }
-    .search {
-        display: block;
-    }
-    .logo img {
-        width: 120px;
-    }
-    .nav-div {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
     .left-1 {
         display: none;
     }
