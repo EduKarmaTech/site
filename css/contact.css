@@ -67,4 +67,15 @@
     .right {
         padding: 10px;
     }
+     .footer-flex {
+        display:inline-flex;
+    }
+
+    .rows ul li {
+        display: inline-block;
+    }
+    
+    .footer-logo img {
+        width: 250px;
+    }
 }
