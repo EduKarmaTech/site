@@ -126,4 +126,17 @@
     .after {
         margin: 20px 0;
     }
+    
+.footer-flex {
+        display: block;
+    }
+
+    .rows ul li {
+        display: inline-block;
+    }
+    
+    .footer-logo img {
+        width: 250px;
+    }
+    
 }
