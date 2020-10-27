@@ -43,4 +43,16 @@
 	.head h1 {
 		padding-top: 30px;
 	}
+.footer-flex {
+        display: block;
+    }
+
+    .rows ul li {
+        display: inline-block;
+    }
+    
+    .footer-logo img {
+        width: 250px;
+    }
+    
 }
