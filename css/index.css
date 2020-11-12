@@ -1,3 +1,111 @@
+/* Default styles */
+* {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+body {
+    margin: 0;
+    
+    width: 100%;
+    display: block;
+}
+.row {
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+.col-md-4 {
+    margin: 0;
+}
+/* End of Default Styles */
+
+
+
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    padding: 25px;
+}
+.nav-div {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mobile-menu {
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logo img {
+    width: 200px;
+}
+.logo {
+    padding-top: 10px;
+}
+.menus {
+    padding: 10px 0;
+    display: block;
+}
+.menus ul li{
+    display: inline;
+    padding: 10px;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.close {
+    display: none;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+.search {
+    display: none;
+}
+.search span {
+    font-size: 40px;
+    cursor: pointer;
+}
+.search-div {
+    display: block;
+    position: relative;
+}
+.search-box {
+    padding: 10px;
+    height: 35px;
+}
+.search-btn {
+    border: none;
+    position: relative;
+    top: 2px;
+    left: -7px;
+    font-size: 22px;
+    height: 35px;
+    background: #1089FE;
+}
+.login-btn {
+    background: #1089FE;
+    border: none;
+    padding: 0 40px;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.mobile-menu div {
+    padding: 7px;
+}
+/* End of Navbar Styles */
+
 /* First Section of page */
 
 .container-1 {
@@ -454,6 +562,44 @@
     .container-6,
     .container-7 {
         padding: 10px;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .menus {
+        display: none;
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    .menus ul li {
+        display: block;
+        width: 100%;
+        /* text-align: center; */
+    }
+    .search-div {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger span {
+        font-size: 40px;
+    }
+    .search {
+        display: block;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .nav-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .left-1 {
         display: none;
