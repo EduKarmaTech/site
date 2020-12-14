@@ -185,9 +185,12 @@ ul {
 }
 
 .ellipse {
-    position: relative;
-    top: -100px;
+    position: absolute;
+    width: 150px;
+    height: 550px;
+    top: 400px;
 }
+/* Ellipse Fixed. I think */
 
 
 /* End of First Section of Page */
